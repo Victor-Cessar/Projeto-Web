@@ -117,7 +117,7 @@ export const AchievementsView: React.FC<AchievementsViewProps> = ({
                       <h4 className={`text-sm font-bold ${isUnlocked ? 'text-slate-900' : 'text-slate-400'}`}>
                         {m.name}
                       </h4>
-                      <p className="text-xs text-slate-500 leading-normal truncate">{m.description}</p>
+                      <p className="text-xs text-slate-500 mt-1 text-center px-1 leading-relaxed">{m.description}</p>
                     </div>
                   </div>
                 );
