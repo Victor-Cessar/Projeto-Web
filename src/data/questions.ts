@@ -10,7 +10,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         options: ['Amapá.', 'Amazonas.', 'Minas Gerais.', 'Pernambuco.', 'Rio de Janeiro.'],
         correctIndex: 0,
         explanation: 'Calculando a variação absoluta (subtração direta): Amapá aumentou 28,1 (37,1 - 9,0); Minas Gerais aumentou 26,9 (27,2 - 0,3); Pernambuco aumentou 7,7. O maior aumento absoluto foi o do Amapá.',
-        image: '../imagens/incidencia.png'
+        image: '/imagens/incidencia.png'
       },
       {
         id: 'u1_t1_q2',
@@ -18,7 +18,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         options: ['Centro cultural.', 'Drogaria.', 'Lan house.', 'Ponto de partida.', 'Padaria.'],
         correctIndex: 4,
         explanation: 'Dividindo a distância total pela extensão da pista: 4.125 / 500 = 8 voltas completas e sobra um resto de 125 metros. Como a pista tem 500m, 125m equivale exatamente a 1/4 de volta (ou 2/8). Caminhando no sentido anti-horário, 1/4 de volta a deixa exatamente em frente à Padaria.',
-        image: '../assets/imagens/praça.png'
+        image: '/imagens/praça.png'
       },
       {
         id: 'u1_t1_q3',
@@ -26,7 +26,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         options: ['R$ 22,90.', 'R$ 106,46.', 'R$ 43,82.', 'R$ 17,40.', 'R$ 22,52.'],
         correctIndex: 2,
         explanation: 'O novo consumo é de 34 m³. O cálculo detalhado fica: Primeiros 10 m³ = R$ 5,50 (tarifa mínima). Próximos 10 m³ (faixa 11 a 20) = 10 x 0,85 = R$ 8,50. Próximos 10 m³ (faixa 21 a 30) = 10 x 2,13 = R$ 21,30. Restante de 4 m³ (faixa 31 a 50) = 4 x 2,13 = R$ 8,52. Somando tudo: 5,50 + 8,50 + 21,30 + 8,52 = R$ 43,82.',
-        image: '../assets/imagens/conta_agua.png'
+        image: '/imagens/conta_agua.png'
       },
       {
         id: 'u1_t1_q4',
@@ -40,7 +40,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         ],
         correctIndex: 1,
         explanation: 'Calculando a pontuação de A: 1º lugar: (10 + 4) x 3 = 42 pontos. 2º lugar: (2 + 3) x 2 = 10 pontos. 3º lugar: (7 + 7) x 1 = 14 pontos. Total de A = 42 + 10 + 14 = 68 pontos. Fazendo o mesmo para os outros, nota-se que A vence a disputa.',
-        image: '../assets/imagens/quadro_eleicao.png'
+        image: '/imagens/quadro_eleicao.png'
       },
       {
         id: 'u1_t1_q5',
@@ -54,7 +54,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         ],
         correctIndex: 2,
         explanation: 'A taxa prevista inicialmente em novembro era de 2,9%. Caso o surto se tornasse mais severo e duradouro, a nova projeção seria reduzida para 1,5%. A retração (redução imposta na estimativa do crescimento) é a diferença direta entre as previsões: 2,9% - 1,5% = 1,4%.',
-        image: '../assets/imagens/pib.png'
+        image: '/imagens/pib.png'
       }
     ],
 
@@ -87,7 +87,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         options: ['1.', '2.', '3.', '4.', '5.'],
         correctIndex: 1,
         explanation: 'Multiplicando o tempo pelo número de pessoas para obter a espera total de cada fila: M1 = 35x5 = 175s; M2 = 25x6 = 150s; M3 = 22x7 = 154s; M4 = 40x4 = 160s; M5 = 20x8 = 160s. O menor tempo de espera é na Máquina 2.',
-        image: '../assets/imagens/aeroporto.png'
+        image: '/imagens/aeroporto.png'
       }
     ],
 
