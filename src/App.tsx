@@ -304,13 +304,20 @@ export default function App() {
     if (!selectedUnitId) return;
 
     // Busca o banco de questões correspondente
-    const unitMap = QUESTIONS_BY_UNIT[selectedUnitId] || QUESTIONS_BY_UNIT['unit1'];
+   const unitMap = QUESTIONS_BY_UNIT[selectedUnitId] || QUESTIONS_BY_UNIT['unit1'];
     let listQuestions = unitMap.exercises;
 
-    if (type === 'simulado1') listQuestions = unitMap.simulado1;
-    else if (type === 'simulado2') listQuestions = unitMap.simulado2;
-    else if (type === 'avaliacao') listQuestions = unitMap.avaliacao;
-    else if (type === 'substituta') listQuestions = unitMap.substituta;
+    if (type === 'exercise' && topicId) {
+      listQuestions = unitMap[topicId] || unitMap.exercises;
+    } else if (type === 'simulado1') {
+      listQuestions = unitMap.simulado1;
+    } else if (type === 'simulado2') {
+      listQuestions = unitMap.simulado2;
+    } else if (type === 'avaliacao') {
+      listQuestions = unitMap.avaliacao;
+    } else if (type === 'substituta') {
+      listQuestions = unitMap.substituta;
+    }
 
     setActiveQuizSession({
       unitId: selectedUnitId,
