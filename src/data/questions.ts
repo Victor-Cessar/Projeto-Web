@@ -18,7 +18,7 @@ export const QUESTIONS_BY_UNIT: Record<string, Record<string, Question[]>> = {
         options: ['Centro cultural.', 'Drogaria.', 'Lan house.', 'Ponto de partida.', 'Padaria.'],
         correctIndex: 4,
         explanation: 'Dividindo a distância total pela extensão da pista: 4.125 / 500 = 8 voltas completas e sobra um resto de 125 metros. Como a pista tem 500m, 125m equivale exatamente a 1/4 de volta (ou 2/8). Caminhando no sentido anti-horário, 1/4 de volta a deixa exatamente em frente à Padaria.',
-        image: '/imagens/praça.png'
+        image: '/imagens/praca.png'
       },
       {
         id: 'u1_t1_q3',
